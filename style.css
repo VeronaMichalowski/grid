@@ -27,12 +27,14 @@ nav{
     flex-direction: row;
     background: #FFFFFF;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
    
     }
 .nav
 {
-    display: flex;
-    justify-content: space-between;
     grid-column: 1/4;
 }
 
@@ -299,9 +301,16 @@ main {
     flex-direction: row;
     align-items: center;
     padding: 15px;
+    width: 40px;
 
     
 }
+
+.abril img {
+    width: 60px;
+    margin: 5px;
+}
+
 
 .jonathan {
     display: flex;
@@ -310,6 +319,9 @@ main {
     padding: 15px;
 
     
+}
+.jonathan img {
+    width: 40px;
 }
 
 .gabriela {
@@ -320,6 +332,9 @@ main {
     
 }
 
+.gabriela img{
+    width: 40px;
+}
 .footer {
     
     grid-column: 1/4;
